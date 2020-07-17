@@ -112,7 +112,7 @@ public class Window_20200429 extends JFrame {
 		if (taktZeitStart == false)
 			errorList.add("Missing OLP TaktZeitStart\n");
 
-		if (startZwZeitMessage == false)			
+		if (startZwZeitMessage == false)
 			if (errorList.size() != 0) {
 				errorFile = new File(fileInPath.getCurrentDirectory(), "ErrorList.txt");
 				// System.out.println(errorList);
