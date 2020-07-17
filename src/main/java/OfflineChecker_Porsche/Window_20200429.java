@@ -324,7 +324,7 @@ public class Window_20200429 extends JFrame {
 		panelMiddle.setBackground(Color.WHITE);
 		panelMiddle.add(imageLabel, BorderLayout.CENTER);
 
-		JLabel author = new JLabel("Author astatyzm");
+		JLabel author = new JLabel("Author: astatyzm");
 		author.setSize(150, 50);
 
 		JPanel panelBottom = new JPanel();
